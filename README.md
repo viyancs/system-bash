@@ -22,7 +22,7 @@ Documentation
 <p> Change Permission for Execute Bash script </p>
 * `sudo chmod +x {bash_script.sh} `<br/>
 <p> Execute Script </p>
-* `sudo sh mysql_backup.sh` or `sudo ./{bash_script.sh}`
+* `sudo sh {bash_script}.sh` or `sudo ./{bash_script.sh}`
 
 
 Adding Into Cronjob
