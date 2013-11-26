@@ -11,9 +11,9 @@ All Script for Maintenance Under System Operation that supported Bash Script.
 Documentation
 -----------------------
 
-<h2>Most Important</h2>
+<b> IMPORTANT </b>
 
-<p> <b><i>word between '{' and '}' that is word can you change into your Real name of (file,user,script)</i></b> </p>
+<p><b><i>word between '{' and '}' is word should be change into your Real name of (file,user,script)</i></b> </p>
 
 <strong> Installation </strong>
 
