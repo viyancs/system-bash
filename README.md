@@ -8,7 +8,7 @@ All Script for Maintenance Under System Operation that supported Bash Script.
 <li> To be Continue ... </li>
 </ol>
 
-MYSQL_BACKUP.SH
+mysql_backup.sh
 -----------------------
 
 <strong> Installation </strong>
