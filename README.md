@@ -12,11 +12,11 @@ MYSQL_BACKUP.SH
 -----------------------
 
 <p> Change Permission for Execute Bash script </p>
-* sudo chmod +x mysql_backup.sh 
+* `sudo chmod +x mysql_backup.sh `
 <p> Execute Script </p>
-* sudo sh mysql_backup.sh
+* `sudo sh mysql_backup.sh`
 or 
-* sudo ./mysql_backup.sh
+* `sudo ./mysql_backup.sh`
 
 Note
 -------
