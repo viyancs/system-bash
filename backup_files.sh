@@ -5,7 +5,7 @@
 # If You have Question Please contact me (msofyancs@gmail.com)
 
 # What to backup. 
-backup_files="/opt/local/apache2/htdocs/homework"
+backup_files="/apache2/htdocs/"
 
 # Create archive filename.
 day=$(date +%A)
@@ -15,7 +15,7 @@ flag="$day-$month-$year"
 archive_file="files.tgz"
 
 # Where to backup 
-dest="/opt/backup/www"
+dest="/home/backup/www"
 
 # Create Folder by Date
 mkdir -p "$backup_files/$flag"
