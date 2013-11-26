@@ -8,21 +8,27 @@ All Script for Maintenance Under System Operation that supported Bash Script.
 <li> To be Continue ... </li>
 </ol>
 
-mysql_backup.sh
+Documentation
 -----------------------
+
+<h2>Most Important</h2>
+
+<p> <b><i>word between '{' and '}' that is word can you change into your Real name of (file,user,script)</i></b> </p>
 
 <strong> Installation </strong>
 
 <p> Change owner Script and Backup Directory , so it's will be execute crontab without root access </p>
-* `sudo chown {user}:{user} mysql_backup.sh`
+* `sudo chown {user}:{user} {bash_script.sh}`
 <p> Change Permission for Execute Bash script </p>
-* `sudo chmod +x mysql_backup.sh `<br/>
+* `sudo chmod +x {bash_script.sh} `<br/>
 <p> Execute Script </p>
-* `sudo sh mysql_backup.sh` or `sudo ./mysql_backup.sh`
+* `sudo sh mysql_backup.sh` or `sudo ./{bash_script.sh}`
 
-<strong> Adding Into Cronjob </strong>
+
+Adding Into Cronjob
+-------------------
 * `crontab -e`
-* adding this script to execute every date 27 in each month `0 0 27 * * sh mysql_backup.sh `
+* adding this script to execute every date 27 in each month `0 0 27 * * sh {bash_script.sh} `
 
 
 Note
