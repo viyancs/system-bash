@@ -22,7 +22,7 @@ mysql_backup.sh
 
 <strong> Adding Into Cronjob </strong>
 * `crontab -e`
-* adding this script to execute every date 27 in each month `0 0 27 * * sh /opt/backup/mysql_backup.sh `
+* adding this script to execute every date 27 in each month `0 0 27 * * sh mysql_backup.sh `
 
 
 Note
