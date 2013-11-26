@@ -13,7 +13,7 @@ Documentation
 
 <b> IMPORTANT </b>
 
-<p><b><i>word between '{' and '}' is word should be change into your Real name of (file,user,script)</i></b> </p>
+<p><b><i>word between '{' and '}' should be change into your Real name of (file,user,script)</i></b> </p>
 
 <strong> Installation </strong>
 
