@@ -1,4 +1,10 @@
 #! /bin/bash
+# This script used to generate backup of all database on mysql
+# You can modify this script like you want , example you can modify folder for Backup Directory, because for now I just try to Backup every one month
+# You can modify Crontab for run dhis script , You can see in Readme.md for the description and usage
+# This script didn't backup database information_schema and performance_schema
+# Please keep Simple and Clean Code
+# If You have Question Please contact me (msofyancs@gmail.com)
 
 DAY=$(date +%A)
 MONTH=$(date +%m)
