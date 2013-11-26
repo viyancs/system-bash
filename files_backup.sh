@@ -18,7 +18,7 @@ archive_file="files.tgz"
 dest="/home/backup/www"
 
 # Create Folder by Date
-mkdir -p "$backup_files/$flag"
+mkdir -p "$dest/$flag"
 
 # Print start status message.
 echo "Backing up $backup_files to $dest/$flag/$archive_file"
